@@ -1,0 +1,35 @@
+{
+    "users": [
+      { "month": "Jan", "totalUsers": 12000, "activeUsers": 3000 },
+      { "month": "Feb", "totalUsers": 15000, "activeUsers": 4000 },
+      { "month": "Mar", "totalUsers": 18000, "activeUsers": 4500 },
+      { "month": "Apr", "totalUsers": 20000, "activeUsers": 5000 },
+      { "month": "May", "totalUsers": 23000, "activeUsers": 5500 },
+      { "month": "Jun", "totalUsers": 26000, "activeUsers": 6000 },
+      { "month": "Jul", "totalUsers": 29000, "activeUsers": 6500 },
+      { "month": "Aug", "totalUsers": 32000, "activeUsers": 7000 },
+      { "month": "Sep", "totalUsers": 35000, "activeUsers": 7500 },
+      { "month": "Oct", "totalUsers": 38000, "activeUsers": 8000 },
+      { "month": "Nov", "totalUsers": 41000, "activeUsers": 8500 },
+      { "month": "Dec", "totalUsers": 44000, "activeUsers": 9000 }
+    ],
+    "revenue": [
+      { "name": "Subscriptions", "value": 400000 },
+      { "name": "Ads", "value": 350000 }
+    ],
+    "topSongs": [
+      { "song": "Song A", "streams": 2400 },
+      { "song": "Song B", "streams": 1398 },
+      { "song": "Song C", "streams": 9800 },
+      { "song": "Song D", "streams": 3908 },
+      { "song": "Song E", "streams": 4800 }
+    ],
+    "streams": [
+      { "song": "Song A", "artist": "Artist 1", "date": "2023-08-01", "streams": 150, "userId": "U001" },
+      { "song": "Song B", "artist": "Artist 2", "date": "2023-08-02", "streams": 200, "userId": "U002" },
+      { "song": "Song C", "artist": "Artist 1", "date": "2023-08-03", "streams": 100, "userId": "U003" },
+      { "song": "Song D", "artist": "Artist 3", "date": "2023-08-04", "streams": 250, "userId": "U004" },
+      { "song": "Song E", "artist": "Artist 2", "date": "2023-08-05", "streams": 300, "userId": "U005" }
+    ]
+  }
+  
