@@ -7,7 +7,7 @@ const dbPath = path.join(__dirname, '../../db.json');
 const db = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
 
 // Create a new JSON Server instance
-const router = jsonServer.router(db);
+const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
 exports.handler = async (event, context) => {
