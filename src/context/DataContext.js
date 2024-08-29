@@ -18,28 +18,28 @@ export const DataProvider = ({ children }) => {
 
   const fetchUserGrowthData = async () => {
     const response = await axios.get(`${apiUrl}/users`);
-    console.log(response.data);
     setUserGrowthData(response.data.users);
+    console.log(response.data);
     setLoadingUserGrowth(false);
   };
 
   const fetchRevenueData = async () => {
-    console.log(response.data);
     const response = await axios.get(`${apiUrl}/revenue`);
+    console.log(response.data);
     setRevenueData(response.data.revenue);
     setLoadingRevenue(false);
   };
 
   const fetchTopSongsData = async () => {
-    console.log(response.data);
     const response = await axios.get(`${apiUrl}/top-songs`);
+    console.log(response.data);
     setTopSongsData(response.data.topSongs);
     setLoadingTopSongs(false);
   };
 
   const fetchStreamsData = async () => {
-    console.log(response.data);
     const response = await axios.get(`${apiUrl}/streams`);
+    console.log(response.data);
     setStreamsData(response.data.streams);
     setLoadingStreams(false);
   };
