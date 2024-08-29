@@ -30,7 +30,7 @@ export const DataProvider = ({ children }) => {
   };
 
   const fetchTopSongsData = async () => {
-    const response = await axios.get(`${apiUrl}/topSongs`);
+    const response = await axios.get(`${apiUrl}/top-songs`);
     setTopSongsData(response.data);
     setLoadingTopSongs(false);
   };
