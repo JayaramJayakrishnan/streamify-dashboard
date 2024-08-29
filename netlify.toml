@@ -6,6 +6,21 @@
   directory = "netlify/functions"
 
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/json-server"
+  from = "/api/users"
+  to = "/.netlify/functions/users"
+  status = 200
+
+[[redirects]]
+  from = "/api/revenue"
+  to = "/.netlify/functions/revenue"
+  status = 200
+
+[[redirects]]
+  from = "/api/top-songs"
+  to = "/.netlify/functions/top-songs"
+  status = 200
+
+[[redirects]]
+  from = "/api/streams"
+  to = "/.netlify/functions/streams"
   status = 200
